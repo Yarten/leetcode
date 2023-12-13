@@ -1,5 +1,6 @@
 fn main() {
-    let a = [1; 5];
+    let b = 5;
+    let c = b / 2;
 
-    println!("{:?}", a[2..4].iter().sum::<i32>());
+    println!("{}", c);
 }
